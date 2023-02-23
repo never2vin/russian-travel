@@ -1,0 +1,10 @@
+.page__link {
+  text-decoration: none;
+  color: #fff;
+  opacity: 1;
+  transition: opacity 0.5s;
+}
+
+.page__link:hover {
+  opacity: .8;
+}

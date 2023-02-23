@@ -1,0 +1,17 @@
+.content {
+  display: flex;
+  flex-direction: column;
+  row-gap: 92px;
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .content {
+    row-gap: 88px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .content {
+    row-gap: 64px;
+  }
+}
